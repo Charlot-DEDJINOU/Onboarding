@@ -1,0 +1,83 @@
+{
+  "onboardingSteps": [
+    {
+      "id": 1,
+      "title": "Online Sellers Today",
+      "subtitle": "Vendez en ligne facilement",
+      "description": "Rejoignez des milliers de vendeurs qui font confiance à notre plateforme pour développer leur business.",
+      "icon": "cube-outline",
+      "colorClasses": {
+        "primary": "bg-orange-400",
+        "background": "bg-orange-50",
+        "text": "text-orange-600"
+      },
+      "legacy": {
+        "color": "#FF8A65",
+        "backgroundColor": "#FFF3E0"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Marketing",
+      "subtitle": "Boostez vos ventes",
+      "description": "Utilisez nos outils marketing avancés pour atteindre plus de clients et augmenter vos revenus.",
+      "icon": "bar-chart-outline",
+      "colorClasses": {
+        "primary": "bg-purple-600",
+        "background": "bg-purple-50",
+        "text": "text-purple-600"
+      },
+      "legacy": {
+        "color": "#9C27B0",
+        "backgroundColor": "#F3E5F5"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Customer Engagement",
+      "subtitle": "Fidélisez vos clients",
+      "description": "Créez des relations durables avec vos clients grâce à nos fonctionnalités d'engagement.",
+      "icon": "search-outline",
+      "colorClasses": {
+        "primary": "bg-red-500",
+        "background": "bg-red-50",
+        "text": "text-red-600"
+      },
+      "legacy": {
+        "color": "#FF5722",
+        "backgroundColor": "#FBE9E7"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Sankofa Shop",
+      "subtitle": "Votre succès commence ici",
+      "description": "Commencez votre aventure entrepreneuriale avec la plateforme de vente la plus innovante.",
+      "icon": "storefront-outline",
+      "colorClasses": {
+        "primary": "bg-green-500",
+        "background": "bg-green-50",
+        "text": "text-green-600"
+      },
+      "legacy": {
+        "color": "#4CAF50",
+        "backgroundColor": "#E8F5E8"
+      },
+      "isLast": true,
+      "form": {
+        "phoneInputPlaceholder": "Votre numéro de téléphone",
+        "submitButtonText": "Préinscription",
+        "validationMessages": {
+          "required": "Numéro requis",
+          "invalid": "Format de numéro invalide",
+          "success": "Merci ! Votre préinscription avec le numéro {phoneNumber} a été enregistrée avec succès."
+        }
+      }
+    }
+  ],
+  "settings": {
+    "animationDuration": 300,
+    "phoneValidationRegex": "^[+]?[\\d\\s\\-\\(\\)]{8,}$",
+    "maxPhoneLength": 15
+  }
+}
