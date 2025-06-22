@@ -65,7 +65,7 @@
       },
       "isLast": true,
       "form": {
-        "phoneInputPlaceholder": "Votre numéro de téléphone",
+        "phoneInputPlaceholder": "Numéro de téléphone",
         "submitButtonText": "Préinscription",
         "validationMessages": {
           "required": "Numéro requis",
@@ -77,7 +77,7 @@
   ],
   "settings": {
     "animationDuration": 300,
-    "phoneValidationRegex": "^[+]?[\\d\\s\\-\\(\\)]{8,}$",
-    "maxPhoneLength": 15
+    "phoneValidationRegex": "^01[\\d\\s\\-\\(\\)]{8,}$",
+    "maxPhoneLength": 10
   }
 }
